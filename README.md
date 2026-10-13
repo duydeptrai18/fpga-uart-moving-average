@@ -1,7 +1,7 @@
 # FPGA - UART Moving Average Processor
 
 A Verilog FPGA system that receives unsigned byte samples from a PC over UART, buffers them in a FIFO, calculates a four-sample moving average, and sends each result back to the PC. The design was simulated in Questa and tested on a Terasic DE23-Lite board against a Python reference model.
-
+![FPGA board and hardware test results](DOCS/Hardware_Test_Test1.jpeg)
 ## Overview
 
 - **Input:** One 8-bit unsigned sample, with values from 0 to 255.
